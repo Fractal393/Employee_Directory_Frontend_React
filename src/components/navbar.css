@@ -1,0 +1,16 @@
+@media(max-width: 435px) { 
+    .screen-img {
+        width: 0rem !important;
+    }
+    .title-size {
+            font-size: 1.125rem/* 18px */ !important;
+            line-height: 1.75rem/* 28px */ !important;
+    }
+    .subtitle-size
+    {
+
+            font-size: 0.75rem/* 12px */ !important;
+            line-height: 1rem/* 16px */ !important;
+        
+    }
+}

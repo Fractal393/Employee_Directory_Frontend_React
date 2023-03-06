@@ -1,0 +1,11 @@
+@media(min-width: 1024px) and (max-width: 1115px) {
+    .custom-screen-1 {
+      width: 50% !important;
+    }
+  }
+
+@media(min-width: 767px) and (max-width: 942px) {
+    .custom-screen-2 {
+      width: 100% !important;
+    }
+}
