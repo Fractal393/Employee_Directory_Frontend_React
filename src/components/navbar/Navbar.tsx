@@ -8,35 +8,6 @@ type Props = {
 export const Navbar: React.FC<Props> = ({ onToggleSidebar }) => {
   return (
     <>
-      {/* <header className="flex items-center justify-between p-5 bg-white border-b sm:px-16 sm:py-6">
-      <div className="flex items-center">
-        <img
-          src="/src/assets/saketa-logo.svg"
-          className="w-32 pr-5 sm:w-48"
-          alt="Saketa Logo"
-        />
-        <div className="flex flex-col">
-          <h1 className="text-blue text-3xl sm:text-4xl">Employee Directory</h1>
-          <p className="text-black text-lg sm:text-xl">
-            The Ultimate People Directory Experience
-          </p>
-        </div>
-      </div>
-      <div className="flex items-baseline">
-        <h2 className="text-blue text-2xl sm:text-3xl">
-          Welcome,{" "}
-          <span className="text-black font-medium pr-2 sm:pr-5">
-            Andrew Philips
-          </span>
-        </h2>
-        <img
-          src="/src/assets/rohith huri.jfif"
-          className="w-12 sm:w-16 rounded-full"
-          alt="Profile Picture"
-          />
-          </div>
-        </header> */}
-
       <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 ">
         <div className="px-3 py-3 lg:px-5 lg:pl-3">
           <div className="flex items-center justify-between">
@@ -95,3 +66,35 @@ export const Navbar: React.FC<Props> = ({ onToggleSidebar }) => {
     </>
   );
 };
+
+//Custom Navbar Only for Later Use
+{
+  /* <header className="flex items-center justify-between p-5 bg-white border-b sm:px-16 sm:py-6">
+      <div className="flex items-center">
+        <img
+          src="/src/assets/saketa-logo.svg"
+          className="w-32 pr-5 sm:w-48"
+          alt="Saketa Logo"
+        />
+        <div className="flex flex-col">
+          <h1 className="text-blue text-3xl sm:text-4xl">Employee Directory</h1>
+          <p className="text-black text-lg sm:text-xl">
+            The Ultimate People Directory Experience
+          </p>
+        </div>
+      </div>
+      <div className="flex items-baseline">
+        <h2 className="text-blue text-2xl sm:text-3xl">
+          Welcome,{" "}
+          <span className="text-black font-medium pr-2 sm:pr-5">
+            Andrew Philips
+          </span>
+        </h2>
+        <img
+          src="/src/assets/rohith huri.jfif"
+          className="w-12 sm:w-16 rounded-full"
+          alt="Profile Picture"
+          />
+          </div>
+        </header> */
+}

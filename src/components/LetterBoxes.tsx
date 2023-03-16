@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { AlphabetFilter } from "./AlphabetFilter";
 import { createAPIEndpoint, ENDPOINTS, IEmployee } from "./Api";
-import Cards from "./Cards";
-import { Navbar } from "./Navbar";
+import Cards from "./cards/Cards";
+import { Navbar } from "./navbar/Navbar";
 import Sidebar from "./Sidebar";
 type props = {
   employees: IEmployee[];

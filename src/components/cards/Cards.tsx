@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useLayoutEffect } from "react";
-import { createAPIEndpoint, ENDPOINTS, IEmployee } from "./Api";
+import { createAPIEndpoint, ENDPOINTS, IEmployee } from "../Api";
 import "./cards.css";
 
 type Props = {
