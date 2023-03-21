@@ -6,6 +6,8 @@ import EmployeeList from "./components/EmployeeList";
 import UploadImageExample from "./components/MyComponent";
 import Register from "./components/Register";
 import Test from "./components/Test";
+import "./components/AxiosAuthenticator";
+
 function App() {
   return (
     <>
